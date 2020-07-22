@@ -5,7 +5,7 @@
 }
 
 body{
-	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	margin: 5px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
 }
 
@@ -18,15 +18,15 @@ section{
 }
 
 header{
-	background-color: darkOrange;
+	background-color: rgb(138, 132, 170);
 	color: white; /* more readable on an orange background */
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 nav{
 	width: 100%;
-	height: 60px;
+	height:60px;
 	background-color: wheat;
 }
 
@@ -34,8 +34,8 @@ nav a, nav h3{
 	float: left;
 	margin: 0px;
 	line-height: 60px;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: 4em;
+	margin-right: 5em;
 	text-decoration: none;
 }
 
@@ -43,7 +43,13 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
 
+	position: relative;
+}
 
 /* Simple grid */
 .g-row{
@@ -53,20 +59,24 @@ nav a:hover{
 
 .g-row img{
 	width: 100%; /*This makes all images in grids to be the size of their cell */
+	border-radius: 10px;
+	box-sizing: border-box;
 }
 
 .g-50{
 	width: 50%;
 	float: left;
+	margin: 50px;
 }
 
-.g-30{
-	width: 30%;
+.g-40{
+	width: 40%;
 	float: left;
+	margin: 50px;
 }
 
-.g-70{
-	width: 70%;
+.g-0{
+	width: 100%;
 	float: left;
 }
 
@@ -76,5 +86,6 @@ nav a:hover{
 }
 
 .padded{
-	padding: 20px; /* I add this to cells to add a little padding*/
+	padding: 50px; /* I add this to cells to add a little padding*/
 }
+

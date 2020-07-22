@@ -7,9 +7,8 @@
 	<title>Your Website</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
 <body>
-
+	
 	<header>
 		<section>
 			<h1>Internet Infranstructure in Wellington City</h1>
@@ -18,135 +17,130 @@
 		</section>
 	</header>
 
-	<section>
-		<h1>Here is some centered content, by wrapping it with a section tag</h1>
-		<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci. </em></p>
 
-		<p>Notice how if you change the width of your browser it stays in the center</p>
-	</section>
-
-	<section>
-		<p>This is a simple nav bar, which is full width of the page</p>
-	</section>
-	<nav>
-		<h3>A nice navigation bar</h3>
-		<a href="#one">Link 1</a>
-		<a href="#two">Link 2</a>
-		<a href="#three">Link 3</a>
-	</nav>
-
-	<section id="one">
-		<p><strong>Content number one</strong></p>
-		<p>By setting an a tag's href to "#one", it will link to a html element with the id of "one". <a href="https://css-tricks.com/hash-tag-links-padding/">More info about that here</a></p>
-	</section>
-
-	<section id="two">
-		<p><strong>Content number 2</strong></p>
-	</section>
-
-	<section id="three">
-		<p><strong>Content number 3</strong></p>
-	</section>
-
-
+		<nav>
+			<div class="topnav">
+				<a href="#">Distribution Board</a>
+				<a href="#">Manholes</a>
+				<a href="#">CCTV</a>
+				<a href="#">Satellite Dish</a>
+				<a href="#">Antenna</a>
+			</div>
+		</nav>
 
 	
-
 	<section>
-		<h3>Grids</h3>
-
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
-
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
-
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-
-			<div class="g-30 show">
-				30% width .g-30
-			</div>
-
-			<div class="g-70 show">
-				70% width .g-70
-			</div>
+		<header>
+		<div class="g-100 padded">
+			<h1 class="categoryHeader" id=DistributionBoard>Distribution Board</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
 		</div>
-
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
-				</div>
-				<div class="g-50 show">
-					50%
-				</div>
-			</div>
-			<div class="g-50 show">
-				50%
-			</div>
-		</div>
-
-		<p>Here's a simple page using all of these elements</p>
-	</section>
-
-	<header>
-		<section>
-			<h1>Infrastructure of Wellington</h1>
-			<p>Roaming around the city of Windy Welly, I collected content material related to internet infrastructure.</p>
-		</section>
-	</header>
-
-	<section>
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
+		</header>
 
 		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
+			<div class="g-40">
+				<img src="img/powerbox_1.JPG">
 			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+			<div class="g-40">
+				<img src="img/powerbox_2.JPG">
 			</div>
-		</div>
-
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
+			<div class="g-row">
+			<div class="g-40">
+				<img src="img/powerbox_3.JPG">
 			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+			<div class="g-40">
+				<img src="img/powerbox_4.JPG">
 			</div>
 		</div>
 
+		<header>
+		<div class="g-100 padded">
+			<h1 class="categoryHeader" id=PowerBox>Manhole</h1>
+			<p>Manhole covers can be found on the street ground. Underneath the manhole covers, you can find cables providing connections to the network from suburb to suburb and city to city.</p>
+		</div>
+		</header>
 		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
+			<div class="g-40">
+				<img src="img/manhole_1.JPG" >
 			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+			<div class="g-40">
+				<img src="img/manhole_2.JPG">
 			</div>
+			<div class="g-row">
+			<div class="g-40">
+				<img src="img/manhole_3.JPG">
+			</div>
+			<div class="g-40">
+				<img src="img/manhole_4.JPG">
+			</div>
+		</div>
+
+		<header>
+		<div class="g-100 padded">
+			<h1 class="categoryHeader" id=PowerBox>CCTV</h1>
+			<p>CCTV, or closed-circuit television is a recording video camera set to monitor a specific place to track and refer to if there has been an event that happened.You can find CCT cameras in most shops and homes around Wellington but some are hidden.</p>
+		</div>
+		</header>
+		<div class="g-row">
+			<div class="g-40">
+				<img src="img/cctv_1.JPG">
+			</div>
+			<div class="g-40">
+				<img src="img/cctv_2.JPG">
+			</div>
+			<div class="g-row">
+			<div class="g-40">
+				<img src="img/cctv_3.JPG">
+			</div>
+			<div class="g-40">
+				<img src="img/cctv_4.JPG">
+			</div>
+		</div>
+
+		<header>
+		<div class="g-100 padded">
+			<h1 class="categoryHeader" id=PowerBox>Satellite Dish</h1>
+			<p>Used all around Wellington and over to the other side of the world, a satellite dish is a type of antenna designed to receive or transmit information by radio waves to or from a broadcasting satellite.</p>
+		</div>
+		</header>
+		<div class="g-row">
+			<div class="g-40">
+				<img src="img/satellitedish_1.JPG">
+			</div>
+			<div class="g-40">
+				<img src="img/satellitedish_2.JPG">
+			</div>
+			<div class="g-row">
+			<div class="g-40">
+				<img src="img/satellitedish_3.JPG">
+			</div>
+			<div class="g-40">
+				<img src="img/satellitedish_4.JPG">
+			</div>
+		</div>
+
+		<header>
+		<div class="g-100 padded">
+			<h1 class="categoryHeader" id=PowerBox>Antenna</h1>
+			<p>Antennas work as a wireless server used with a transmitter sending signals, which is intercepted by a receiver, providing access to mostly television, radio and is now becoming correlated with the internet.</p>
+		</div>
+		</header>
+		<div class="g-row">
+			<div class="g-40">
+				<img src="img/antenna_1.JPG">
+			</div>
+			<div class="g-40">
+				<img src="img/antenna_2.JPG">
+			</div>
+			<div class="g-row">
+			<div class="g-40">
+				<img src="img/antenna_3.JPG">
+			</div>
+			<div class="g-40">
+				<img src="img/antenna_4.JPG">
+			</div>
+		</div>
+
 		</div>
 	</section>
 
