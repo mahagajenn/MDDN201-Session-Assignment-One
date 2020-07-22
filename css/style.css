@@ -5,7 +5,7 @@
 }
 
 body{
-	margin: 5px; /* Often browsers have a 5px margin by deafult*/
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
 }
 
@@ -19,9 +19,11 @@ section{
 
 header{
 	background-color: rgb(138, 132, 170);
+	box-sizing: border-box;
 	color: white; /* more readable on an orange background */
 	padding-top: 10px;
 	padding-bottom: 10px;
+
 }
 
 nav{
@@ -41,14 +43,6 @@ nav a, nav h3{
 
 nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
-}
-
-nav li{
-	display: inline-block;
-	margin-left: 70px;
-	padding-top: 23px;
-
-	position: relative;
 }
 
 /* Simple grid */
